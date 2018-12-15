@@ -11,7 +11,6 @@ int main ()
 	freopen("friday.out","w",stdout);
 	int n,ans[7]= {0},y=1900,m=1,d=1,x=1,mm[13]= {-1,31,-1,31,30,31,30,31,31,30,31,30,31};
 	cin>>n;
-	if (n==5) {cout<<"9 9 7 9 9 8 9\n";return 0;}
 	n+=1899; 
 	 
 	while (y<=n)

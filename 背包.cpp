@@ -24,7 +24,7 @@ int main ()
 	cout<<p(0,w);
 	for(int i=0;i<n;i++)
 	{
-		cout<<t[i]<<' ';
+		cout<<t[i]<<" ";
 	}
 	fin.close();
 	return 0;
